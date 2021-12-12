@@ -38,9 +38,12 @@
   .mobile img {
     width: 19.75rem;
     height: 15rem;
-    position: relative;
-    bottom: -41%;
+  }
+
+  .mobile {
+    bottom: -11%;
     left: 15%;
+    position: relative;
   }
 
   .section-center {
