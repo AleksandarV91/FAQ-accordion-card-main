@@ -1,0 +1,33 @@
+/* Universal styles */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  font-size: 12px;
+  font-family: "Kumbh Sans", sans-serif;
+  --desaturated-blue: hsl(238, 29%, 16%);
+  --soft-red: hsl(14, 88%, 65%);
+  --very-dark-blue: hsl(237, 12%, 33%);
+  --dark-blue: hsl(240, 6%, 50%);
+  --light-blue: hsl(240, 5%, 91%);
+  --background-gradient: linear-gradient(
+    hsl(273, 75%, 66%),
+    hsl(240, 73%, 65%)
+  );
+  background: var(--background-gradient);
+}
+
+/* --- Tablet Flow --- */
+
+@media screen and (max-width: 875px) {
+  .desktop {
+    display: none;
+  }
+
+  .questions-title {
+  }
+}
