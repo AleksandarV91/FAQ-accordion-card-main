@@ -7,7 +7,6 @@ questions.forEach(function (question) {
     questions.forEach(function (item) {
       if (item !== question) {
         item.classList.remove("show-text");
-        btn.classList.remove("rotate");
       }
     });
     question.classList.toggle("show-text");
