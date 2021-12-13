@@ -3,8 +3,8 @@ const questions = document.querySelectorAll(".question");
 questions.forEach(function (question) {
   const btn = question.querySelector(".question-btn");
   btn.addEventListener("click", function () {
-    btn.classList.add("rotate");
     questions.forEach(function (item) {
+      btn.classList.toggle("rotate");
       if (item !== question) {
         item.classList.remove("show-text");
       }

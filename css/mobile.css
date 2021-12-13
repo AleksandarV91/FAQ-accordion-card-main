@@ -41,9 +41,9 @@
   }
 
   .mobile {
-    bottom: -11%;
-    left: 15%;
-    position: relative;
+    position: absolute;
+    top: 8%;
+    left: 18%;
   }
 
   .section-center {
@@ -53,6 +53,7 @@
     background: url("../images/bg-pattern-mobile.svg") no-repeat top, white;
     border-radius: 1.916rem;
     padding: 11.5rem 2rem;
+    margin-top: 130px;
   }
 
   .questions-title {
@@ -101,7 +102,7 @@
     font-weight: 700;
   }
 
-  .rotate {
+  .show-text .rotate {
     transform: rotate(180deg);
   }
 }
