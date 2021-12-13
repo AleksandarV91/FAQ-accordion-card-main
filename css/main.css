@@ -142,7 +142,7 @@
     font-weight: 700;
   }
 
-  .rotate {
+  .show-text .rotate {
     transform: rotate(180deg);
   }
 }
